@@ -13,11 +13,9 @@ public class Reader implements LeerFichero{
             var nombre = "";
             var poblacion = "";
             var edad = "";
-            if(cadenaSeparada.length == 3){
+
                 nombre = cadenaSeparada[0];
-            }else{
-                nombre = "";
-            }
+
             if(cadenaSeparada.length == 3) {
                 poblacion = cadenaSeparada[1];
             }else{
